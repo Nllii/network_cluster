@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sys admin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+	<div class="container">
+		
+		<div class="chat-header">
+			<h1>sys admin</h1>
+			<div class="toggle-switch">
+				<label for="mode-switch"> Last server logon: <span id="time"></span> </label>
+			</div>
+		</div>
+		<div class="chat-box">
+			<div id="message-box"></div>
+			<form id="message-form">
+				<input type="text" id="message-input" placeholder="{{ username.username }}">
+				<button type="submit">Send</button>
+			</form>
+		</div>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.min.js"></script>
+	<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script type="text/javascript" src="static/app.js"></script> -->
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+
+</body>
+</html>
