@@ -1,6 +1,7 @@
 bare minimal to link all my projects and system together.
 All in one place. 
 
-
-<img src="https://raw.githubusercontent.com/Nllii/network_cluster/d77608d65a4219fc7ebbe9a33e9eb84f48fab7a6/cluster_network/static/displayshow.png
-" width="200" height="200" />
+<p align="center">
+  <img src="cluster_network/static/displayshow.png" width="350" title="hover text">
+  <img src="cluster_network/static/displayshow.png" width="350" alt="accessibility text">
+</p>
